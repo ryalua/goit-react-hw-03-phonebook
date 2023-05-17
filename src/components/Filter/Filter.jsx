@@ -20,7 +20,7 @@ export class Filter extends Component {
           type="text"
           name="filter"
           value={this.state.filter}
-          onChange={event => this.handleFilter(event)}
+          onChange={this.handleFilter}
         />
       </div>
     );
